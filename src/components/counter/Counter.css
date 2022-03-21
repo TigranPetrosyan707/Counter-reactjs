@@ -1,0 +1,37 @@
+.counterBtn {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn {
+  padding: 20px 70px;
+  text-align: center;
+  font-size: 25px;
+  transition: 1s;
+  color: lightcoral;
+}
+
+.btnDec:hover {
+  transform: scale(1.2);
+  background-color: cadetblue;
+}
+
+.btnInc:hover {
+  transform: scale(1.2);
+  background-color: cadetblue;
+}
+
+span {
+  font-style: italic;
+  font-size: 35px;
+  margin-top: 20px;
+  color: lightcoral;
+  transition: 1s;
+}
+
+span:hover {
+  transform: rotate(360deg);
+  font-size: 60px;
+  color: lightseagreen;
+}
